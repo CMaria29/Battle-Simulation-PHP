@@ -13,7 +13,6 @@ class ExampleTest extends TestCase
 
     public function test_game_and_rounds_are_created()
     {
-        $this->withoutExceptionHandling(); // <--- Add this temporarily
         // 1. Executăm acțiunea (pornirea jocului)
         $response = $this->get('/start-game');
 
