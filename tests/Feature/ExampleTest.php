@@ -9,7 +9,7 @@ use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
-
+    use RefreshDatabase;
 
     public function test_game_and_rounds_are_created()
     {
